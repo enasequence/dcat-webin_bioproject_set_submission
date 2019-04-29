@@ -13,10 +13,8 @@ A Webin account is required to use this script. You can register this here:
 https://www.ebi.ac.uk/ena/submit/sra/
 
 By default, the script will submit to the ENA test service. All
-submissions to
-this service are removed after 24 hours. You should submit first to test
-and
-review the results of this at the below URL:
+submissions to this service are removed after 24 hours. You should submit
+first to test and review the results of this at:
 https://wwwdev.ebi.ac.uk/ena/submit/sra/
 
 Use the test server to convince yourself the TSV has been prepared
