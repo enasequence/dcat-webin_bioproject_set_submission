@@ -24,11 +24,24 @@ then submit to the real server.
 For assistance with the use of this script, please contact the ENA
 helpdesk, currently at datasubs@ebi.ac.uk
 
+## Installation
+### Python version support
+3
+### Pip package using Conda
+
+```bash
+$ conda create -q -n yourenvname python=3.7.3
+
+$ source activate yourenvname
+
+$ pip install -U git+git://github.com/enasequence/dcat-webin-bioproject-set-submission.git
+
+```
 
 ## Usage
 
 ```
-study_subs.py [-h] [-u USERNAME] [-p PASSWORD] [-s] [-i INPUT_TSV] [-v] [-g]
+study_subs [-h] [-u USERNAME] [-p PASSWORD] [-s] [-i INPUT_TSV] [-v] [-g]
 ```
 
 
